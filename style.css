@@ -1,0 +1,115 @@
+html {
+    background-color: rgb(22, 22, 22);
+    font-family: Arial, sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(215, 215, 215);
+    width: 90%;
+    height: 700px;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+td, div {
+    margin-top: 2%;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+}
+
+select, input[type="text"] {
+    background-color: #333; /* dark background color */
+    color: #fff; /* white text color */
+    border: none; /* remove border */
+    padding: 10px 20px; /* add some padding */
+    border-radius: 20px; /* add rounded edges */
+    font-size: 16px; /* increase font size */
+}
+
+
+/* select, input {
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(215, 215, 215);
+
+} */
+
+.main {
+    width: 50%;
+}
+
+.one, .two {
+    width: 20%;
+    height: 50%;
+}
+
+.menu {
+    width: 10%;
+}
+
+div {
+    color: rgb(215, 215, 215);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.scrollable {
+    text-align: left;
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+    padding: auto;
+    overflow: auto;
+    word-spacing: .3em;
+}
+
+div.title {
+    text-align: center;
+}
+
+/* textarea {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(215, 215, 215);
+} */
+
+textarea {
+    background-color: #333; /* dark background color */
+    width: 89%;
+    height: 89%;
+    color: rgb(215, 215, 215); /* white text color */
+    padding: 10px 20px; /* add some padding */
+    border-radius: 20px; /* add rounded edges */
+    font-size: 16px; /* increase font size */
+    resize: none; /* remove resize handle */
+}
+
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+input[type="submit"], button {
+    background-color: #333; 
+    color: rgb(215, 215, 215); 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #555; 
+}
+
